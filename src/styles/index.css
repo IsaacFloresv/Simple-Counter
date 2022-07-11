@@ -6,8 +6,8 @@
 .Contenedor div {
   display: inline-block;
   font-size: 60px;
-  line-height: 60px;
-  height: 60px;
+  line-height: 50px;
+  height: 70px;
   background: #101010;
   color: white;
   padding: 10px;
