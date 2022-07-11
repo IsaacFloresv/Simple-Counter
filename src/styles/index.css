@@ -1,15 +1,15 @@
-.Contenedor{
-	display: inline-block;
-	margin: auto;
+.bigCounter{
 	text-align: center;
+    background: black;
 }
 
-.Contenedor div{
+.bigCounter div{
 	display: inline-block;
-	font-size: 20px;
-line-height: 20px;
-height: 20px;
+	font-size: 60px;
+line-height: 60px;
+height: 60px;
 background: #101010;
 color: white;
-padding: 20px
+padding: 10px;
+margin: 3px;
 }
