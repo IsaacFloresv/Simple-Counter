@@ -1,24 +1,26 @@
 import React from "react";
 
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+import SimpleCounter from "./simplecounter.js";
+
 
 //create your first component
 const Home = () => {
+	let hour = 1;
+	let min = 2;
+	let sec = 3;	
+	let mili =4;
 	return (
 		<div className="text-center">
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
-			<p>
-				<img src={rigoImage} />
-			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working...
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
+			<div className="countainer-fluid">
+				<div>
+					<SimpleCounter 
+					horas = {hour}
+					minutos = {min}
+					segundos={sec}
+					miliseg = {mili}
+					/>
+				</div>
+			</div>
 		</div>
 	);
 };
