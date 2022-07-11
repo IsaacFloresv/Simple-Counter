@@ -17,7 +17,7 @@ const Home = () => {
 					horas = {hour}
 					minutos = {min}
 					segundos={sec}
-					miliseg = {mili}
+					milisegundos = {mili}
 					/>
 				</div>
 			</div>

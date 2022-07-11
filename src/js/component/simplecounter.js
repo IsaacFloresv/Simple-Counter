@@ -3,9 +3,7 @@ import React from "react";
 function SimpleCounter(props) {
   return (
     <div className="Contenedor">
-      <div className="calendar">
-        <i className="bi bi-stopwatch"></i>
-      </div>
+      <div className="calendar"><i class="bi bi-stopwatch"></i></div>
       <div className="col">{props.horas}</div>
       <div className="col">{props.minutos}</div>
       <div className="col">{props.segundos}</div>
